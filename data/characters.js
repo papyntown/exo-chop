@@ -1,4 +1,6 @@
-[
+// Données des personnages, importées directement en JS (pas de fetch)
+// pour fonctionner en local sans serveur (file://).
+const CHARACTERS_DATA = [
   {
     "id": 1,
     "name": "Son Goku",
@@ -59,4 +61,4 @@
     "image": "https://placehold.co/300x300/ec4899/ffffff?text=Buu",
     "description": "Créature magique millénaire à la puissance colossale et au comportement imprévisible."
   }
-]
+];

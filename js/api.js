@@ -13,8 +13,9 @@
 const STORAGE_KEY = "db-added-characters";
 
 async function fetchInitialCharacters() {
-  const response = await fetch("data/characters.json");
-  return response.json();
+  // CHARACTERS_DATA vient de data/characters.js (chargé en <script> classique),
+  // pas de fetch("data/characters.json") qui échoue en local (protocole file://).
+  return CHARACTERS_DATA;
 }
 
 function getAddedCharacters() {

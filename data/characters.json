@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Son Goku",
+    "image": "https://placehold.co/300x300/f97316/ffffff?text=Goku",
+    "description": "Saiyan élevé sur Terre, héros principal, toujours prêt à repousser ses limites au combat."
+  },
+  {
+    "id": 2,
+    "name": "Vegeta",
+    "image": "https://placehold.co/300x300/2563eb/ffffff?text=Vegeta",
+    "description": "Prince des Saiyans, fier et orgueilleux, éternel rival de Goku."
+  },
+  {
+    "id": 3,
+    "name": "Piccolo",
+    "image": "https://placehold.co/300x300/16a34a/ffffff?text=Piccolo",
+    "description": "Namek redoutable devenu mentor et protecteur de Gohan."
+  },
+  {
+    "id": 4,
+    "name": "Son Gohan",
+    "image": "https://placehold.co/300x300/f59e0b/ffffff?text=Gohan",
+    "description": "Fils aîné de Goku, doté d'un potentiel de combat immense mais préférant les études."
+  },
+  {
+    "id": 5,
+    "name": "Freezer",
+    "image": "https://placehold.co/300x300/a855f7/ffffff?text=Freezer",
+    "description": "Tyran intergalactique responsable de la destruction de la planète Vegeta."
+  },
+  {
+    "id": 6,
+    "name": "Bulma",
+    "image": "https://placehold.co/300x300/06b6d4/ffffff?text=Bulma",
+    "description": "Scientifique de génie et amie de toujours de Goku, créatrice du radar à dragon balls."
+  },
+  {
+    "id": 7,
+    "name": "Krillin",
+    "image": "https://placehold.co/300x300/eab308/000000?text=Krillin",
+    "description": "Meilleur ami d'enfance de Goku, humain courageux malgré son manque de puissance naturelle."
+  },
+  {
+    "id": 8,
+    "name": "Trunks",
+    "image": "https://placehold.co/300x300/8b5cf6/ffffff?text=Trunks",
+    "description": "Fils de Vegeta et Bulma, venu du futur pour changer le destin de ses proches."
+  },
+  {
+    "id": 9,
+    "name": "Cell",
+    "image": "https://placehold.co/300x300/15803d/ffffff?text=Cell",
+    "description": "Créature bio-organique créée par le Dr Gero, capable d'absorber ses adversaires."
+  },
+  {
+    "id": 10,
+    "name": "Majin Buu",
+    "image": "https://placehold.co/300x300/ec4899/ffffff?text=Buu",
+    "description": "Créature magique millénaire à la puissance colossale et au comportement imprévisible."
+  }
+]

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dragon Ball - Personnages</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="app-header">
+    <h1>🐉 Personnages Dragon Ball</h1>
+    <button id="add-character-btn" class="btn-add" title="Ajouter un personnage">+</button>
+  </header>
+
+  <main>
+    <div id="characters-list" class="characters-grid">
+      <!-- Les cartes des personnages sont générées ici en JS -->
+    </div>
+  </main>
+
+  <!-- MODAL D'AJOUT DE PERSONNAGE -->
+  <div id="modal-overlay" class="modal-overlay hidden">
+    <div class="modal">
+      <button id="close-modal-btn" class="modal-close" title="Fermer">&times;</button>
+      <h2>Ajouter un personnage</h2>
+
+      <form id="add-character-form">
+        <label for="char-name">Nom</label>
+        <input type="text" id="char-name" name="name" placeholder="Ex : Yamcha" required>
+
+        <label for="char-image">URL de l'image</label>
+        <input type="url" id="char-image" name="image" placeholder="https://...">
+
+        <label for="char-description">Description</label>
+        <textarea id="char-description" name="description" rows="3" placeholder="Ex : Ancien bandit du désert devenu guerrier Z."></textarea>
+
+        <button type="submit" class="btn-submit">Ajouter</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
